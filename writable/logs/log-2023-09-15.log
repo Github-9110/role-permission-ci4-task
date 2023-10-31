@@ -1,0 +1,8 @@
+CRITICAL - 2023-09-15 05:40:14 --> chmod(): Operation not permitted
+in APPPATH/Controllers/Home.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(62): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->savedata()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

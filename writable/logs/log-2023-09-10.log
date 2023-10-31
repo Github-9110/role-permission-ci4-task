@@ -1,0 +1,109 @@
+CRITICAL - 2023-09-10 07:07:02 --> Call to a member function getName() on null
+in APPPATH/Controllers/AjaxController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->savedataajax()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:07:53 --> Call to a member function getName() on null
+in APPPATH/Controllers/AjaxController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->savedataajax()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:08:14 --> Call to a member function getName() on null
+in APPPATH/Controllers/AjaxController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->savedataajax()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:08:57 --> Call to a member function getName() on null
+in APPPATH/Controllers/AjaxController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->savedataajax()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:09:24 --> Call to a member function getName() on null
+in APPPATH/Controllers/AjaxController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->savedataajax()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:11:07 --> Class 'App\Controllers\UsersModel' not found
+in APPPATH/Controllers/AjaxController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->savedataajax()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:16:14 --> Invalid file: "ajaxlist.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AjaxController.php(8): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 07:16:56 --> Invalid argument supplied for foreach()
+in APPPATH/Views/ajaxlist.php on line 70.
+ 1 APPPATH/Views/ajaxlist.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/learnci/app/Views/ajaxlist.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AjaxController.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:09:36 --> Call to a member function setJSON() on null
+in APPPATH/Controllers/AjaxController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:10:44 --> Call to a member function setJSON() on null
+in APPPATH/Controllers/AjaxController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:11:19 --> Call to a member function setJSON() on null
+in APPPATH/Controllers/AjaxController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:15:26 --> Invalid argument supplied for foreach()
+in APPPATH/Views/ajaxlist.php on line 69.
+ 1 APPPATH/Views/ajaxlist.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/learnci/app/Views/ajaxlist.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AjaxController.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:25:46 --> Invalid argument supplied for foreach()
+in APPPATH/Views/ajaxlist.php on line 69.
+ 1 APPPATH/Views/ajaxlist.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/learnci/app/Views/ajaxlist.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AjaxController.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:28:05 --> Argument 2 passed to view() must be of the type array, object given, called in /var/www/html/learnci/app/Controllers/AjaxController.php on line 12
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/AjaxController.php(12): view()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-10 10:29:15 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+in APPPATH/Controllers/AjaxController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AjaxController->ajaxlist()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
